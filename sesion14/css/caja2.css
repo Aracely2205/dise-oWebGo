@@ -1,0 +1,14 @@
+
+body{
+    margin: 0px;
+}
+#caja{
+    margin: 0px;
+    padding: 20px;
+    background-color: aqua;
+}
+.caja{
+    margin: 20px; /*cambiar 20px*/
+    padding: 10px; /*cambiar a 10px*/
+    background-color: violet;
+}
