@@ -7,13 +7,12 @@
 }
 #caja2{
     background-color:blue ;
-    float: left;
+    float: right;
 }
 #caja3{
     background-color:green ;
-    float: left;
 }
 #caja4{
     background-color:yellow ;
-    float: left;
+    float: right;
 }

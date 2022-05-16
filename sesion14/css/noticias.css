@@ -3,19 +3,23 @@
 }
 
 #caja2{
-    width: 500px;
-    height: 200px;
+    width: 250px;
+    height: 150px;
     float: right;
+    background-image: url(img/policias.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 #caja3{
     background-color: green;
     margin-bottom: 0px;
+    text-align: justify;
 }
 
 #caja4{
     background-color: yellow;
-    height: 200px;
+    height: 20px;
     float: right;
     margin: 0px;
 }
