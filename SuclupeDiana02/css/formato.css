@@ -1,0 +1,59 @@
+body{
+    margin: 0px;
+}
+#caja01{
+    margin: 0px;
+    padding: 10px;
+    text-align:left;
+    color:white;
+    background-color:steelblue;
+}
+#caja02{
+    margin-top: auto;
+}
+#mifoto{
+    width: 130px;
+    height: 150px;
+    margin-right: 20px;
+    float: left;
+}
+#is{
+    text-align: right;
+}
+#caja03{
+    text-align: justify;
+    margin: 10px;
+    float: right;
+}
+#mifoto2{
+    width: 180px;
+    height: 200px;
+    margin-right: 20px;
+    margin-left: 30px;
+    float: right ;
+}
+#caja04{
+    text-align: justify;
+    margin: 10px;
+    float: right;
+}
+#mifoto3{
+    width: 180px;
+    height: 200px;
+    margin-right: 20px;
+    margin-left: 30px;
+    float: right ;
+}
+header{
+    text-align:left;
+    color:white;
+    background-color:darkblue;
+}
+section{
+    font-family: arial;
+}
+footer{
+    text-align: center;
+    color: aliceblue;
+    
+}
