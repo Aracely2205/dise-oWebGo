@@ -1,0 +1,32 @@
+body{
+    margin: 200px; 
+    background-color: indianred;
+    align-content: center;
+    align-items: center;
+    ruby-align: center;
+}
+#formulario2{
+    text-align: center;
+}
+#contenedor{
+    background-color: aliceblue;
+    width: auto;
+    height: auto;
+}
+#titulo{
+    text-align: center;
+}
+label{
+    display: inline-block;
+    width: 75px;
+}
+div{
+    text-align: center;
+}
+#m{
+    position: relative;
+    width: auto;
+    height: auto;
+    left: 250px;
+}
+    

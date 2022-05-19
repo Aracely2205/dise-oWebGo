@@ -1,5 +1,11 @@
 body{
     margin: 0px;
+    background-color: black;
+    color: aliceblue;
+}
+img{
+    width: auto;
+    height: auto;
 }
 .grid{
     display: grid;
@@ -13,25 +19,29 @@ main{
     font-family: arial;
 }
 header{
-    background-color: blueviolet;
+    background-color: black;
     grid-area: my-header;
     
 }
 nav{
-    background-color: cornflowerblue;
     grid-area: my-nav;
 }
 section{
-    background-color: indigo;
+    background-color: black;
     grid-area: my-section;
 }
 aside{
-    background-color: darkmagenta;
+    background-color: black;
     grid-area: my-aside;
 }
 footer{
-    background-color: darkorchid;
+    background-color: black;
+    text-align: center;
     grid-area: my-footer;
+}
+label{
+    display: inline-block;
+    width: 75px;
 }
 @media(min-width:600px) and (max-width:1000px){
     .grid{
