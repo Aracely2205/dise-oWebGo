@@ -1,6 +1,13 @@
 body{
     margin: 0px;
 }
+.grid{
+    display: grid;
+    min-height: 100vh;
+    grid-template-columns: 100%;
+    grid-template-rows: 100px 50px 1fr 50px;
+    grid-template-areas: "my-header" "my-nav" "my-section" "my-aside" "my-footer";
+}
 #caja01{
     margin: 0px;
     padding: 10px;
@@ -47,13 +54,18 @@ body{
 header{
     text-align:left;
     color:white;
-    background-color:darkblue;
+    background-color:rgb(117, 117, 206);
+    grid-area: my-header;
 }
 section{
     font-family: arial;
+    background-color: w;
+    grid-area: my-section;
 }
 footer{
     text-align: center;
     color: aliceblue;
-    
+    /* background-color: black; */
+    grid-area: my-footer;
+    text-align: center;
 }
