@@ -1,0 +1,71 @@
+body{
+    background-color: darkcyan;
+    font-family: calibri;
+}
+
+div{
+    background-color: rgb(229, 237, 245);
+    border: 5px solid rgb(45, 233, 217);
+    padding: 12px;
+    width: 77%;
+    margin: 0 auto;
+}
+
+fieldset{
+    margin-bottom: 12px;
+}
+
+legend{
+    background-color: darkcyan;
+    padding: 5px;
+    border-radius: 20px;
+    font-style:oblique;
+}
+
+img{
+    border: 50%;
+    margin-bottom: 12px;
+    margin-right: 30px;
+    float: left;
+}
+header{
+    background-color: black;
+    max-width: 1000px;
+    margin: 0 auto;
+    border-radius: 20px 20px 0 0;
+    font-family: 'Times New Roman';
+    color: aliceblue;
+    padding: 30px;    
+    
+}
+section{
+    max-width: 10000px;
+
+}
+footer{
+    font-style:oblique ;
+    font-family: 'Times New Roman';
+    color: aliceblue;
+    background-color: black;
+    max-width: 1000px;
+    margin: 0 auto;
+    border-radius: 0 0 20px 20px;
+    text-align: center;
+    padding: 30px;
+
+}
+
+@media(min-width:600px) and (max-width:1000px){
+    .grid{
+        grid-template-columns: 30% 70%;
+        grid-template-rows: 150px 50px 1fr 100px;
+        grid-template-areas: "my-header my-header" "my-nav my-nav" "my-aside my-section" "my-footer my-footer";
+    }
+}
+@media(min-width:1001px){
+    .grid{
+        grid-template-columns: 200px 1fr 200px;
+        grid-template-rows: 200px 1fr 100px;
+        grid-template-areas: "my-header my-header my-header" "my-nav my-section my-aside" "my-footer my-footer my-footer";
+    }
+}
