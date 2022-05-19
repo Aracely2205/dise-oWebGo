@@ -11,11 +11,27 @@ body{
 
 header{
     font-family:'Lucida Sans';
-    color: rgb(35, 110, 41);
+    color:aliceblue;
     text-align: center;
-    background-color: skyblue;
+    background-color: black;
     grid-area: my-header;
 }
+#koala{
+    width: 210px;
+    height: 210px;
+    float: left;
+}
+#mono{
+    width: 210px;
+    height: 210px;
+    float: right;
+}
+img{
+    width: 500px;
+    height: 300px;
+    float:left;
+}
+
 nav{
     background-color: cornflowerblue;
     grid-area: my-nav;
@@ -25,12 +41,14 @@ section{
     grid-area: my-section;
 }
 aside{
-    background-color: steelblue;
+    background-color: rgba(52, 207, 52, 0.671);
     grid-area: my-aside;
 }
 footer{
-    background-color: aquamarine;
+    color: aliceblue;
+    background-color: black;
     grid-area: my-footer;
+    text-align: center;
 }
 @media(min-width:600px) and (max-width:1000px){
     .grid{
