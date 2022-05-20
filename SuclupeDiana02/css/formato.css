@@ -1,5 +1,6 @@
 body{
     margin: 0px;
+    padding: 0%;
 }
 .grid{
     display: grid;
@@ -7,6 +8,11 @@ body{
     grid-template-columns: 100%;
     grid-template-rows: 100px 50px 1fr 50px;
     grid-template-areas: "my-header" "my-nav" "my-section" "my-aside" "my-footer";
+}
+main{
+    color: black;
+    font-family: 'Gill Sans';
+    padding-top: 3rem;
 }
 #caja01{
     margin: 0px;
@@ -32,40 +38,100 @@ body{
     margin: 10px;
     float: right;
 }
-#mifoto2{
-    width: 180px;
+#rpp01{
+    width: 300px;
     height: 200px;
     margin-right: 20px;
-    margin-left: 30px;
+    margin-left: 50px;
+    margin-bottom: 200px;
     float: right ;
+}
+#noticia01{
+    text-align: justify;
+    align-items: left;
 }
 #caja04{
     text-align: justify;
     margin: 10px;
     float: right;
 }
-#mifoto3{
-    width: 180px;
+#rpp02{
+    width: 300px;
     height: 200px;
     margin-right: 20px;
-    margin-left: 30px;
+    margin-left: 50px;
     float: right ;
+    margin-bottom: 200px;
 }
 header{
+
     text-align:left;
     color:white;
-    background-color:rgb(117, 117, 206);
+    background-color:rgb(224, 197, 41);
+    padding: 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
     grid-area: my-header;
+}
+nav{
+    background-color: white;
+    grid-area: my-nav;
 }
 section{
     font-family: arial;
-    background-color: w;
+    background-color: white;
     grid-area: my-section;
 }
-footer{
-    text-align: center;
+aside{
+    background-color: skyblue;
+    grid-area: my-aside;
+}
+#mifoto4{
+    width: 150px;
+    height: 140px;
+    margin-right: 120px;
+    margin-left: 30px;
+    float: left ;
+}
+#cuadro{
+    background-color: steelblue;
+    scroll-margin-block: 0px;
+    border-color:steelblue;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+#tabla{
+    text-align: left;
+    width: 50%;
+    height: 50%;
     color: aliceblue;
-    /* background-color: black; */
+}
+footer{
+    
+    text-align: center;
+    background-color: steelblue;
     grid-area: my-footer;
     text-align: center;
+    width: 100%;
+    height: 160px;
+    bottom: 0;
+    position: fixed;
+    
+
+}
+@media(min-width:600px) and (max-width:1000px){
+    .grid{
+        grid-template-columns: 30% 70%;
+        grid-template-rows: 150px 50px 1fr 100px;
+        grid-template-areas: "my-header my-header" "my-nav my-nav" "my-aside my-section" "my-footer my-footer";
+    }
+}
+@media(min-width:1001px){
+    .grid{
+        grid-template-columns: 200px 1fr 200px;
+        grid-template-rows: 200px 1fr 100px;
+        grid-template-areas: "my-header my-header my-header" "my-nav my-section my-aside" "my-footer my-footer my-footer";
+    }
 }
