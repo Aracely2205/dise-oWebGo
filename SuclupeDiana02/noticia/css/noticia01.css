@@ -1,0 +1,40 @@
+body{
+    margin: 0px;
+}
+#caja01{
+    background-color: red;
+    margin: 0px;
+    padding: 20px;
+    text-align:center;
+}
+
+#caja02{
+    width: 400px;
+    height: 233px;
+    float: right;
+}
+#t{
+    color: red;
+    font-family: monospace;
+}
+#caja3{
+    
+    background-color: white;
+    margin-bottom: 0px;
+    text-align: justify;
+}
+
+#caja4{
+    background-color: red;
+    height: 20px;
+    float: right;
+    margin: 0px;
+}
+header{
+    text-align:left;
+    color:white;
+    background-color:gray;
+}
+section{
+    font-family: arial;
+}

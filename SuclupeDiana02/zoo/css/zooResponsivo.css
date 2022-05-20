@@ -1,0 +1,66 @@
+body{
+    margin: 0px;
+}
+.grid{
+    display: grid;
+    min-height: 100vh;
+    grid-template-columns: 100%;
+    grid-template-rows: 100px 50px 1fr 50px;
+    grid-template-areas: "my-header" "my-nav" "my-section" "my-aside" "my-footer";
+}
+
+header{
+    font-family:'Lucida Sans';
+    color:aliceblue;
+    text-align: center;
+    background-color: black;
+    grid-area: my-header;
+}
+#koala{
+    width: 210px;
+    height: 210px;
+    float: left;
+}
+#mono{
+    width: 210px;
+    height: 210px;
+    float: right;
+}
+img{
+    width: 500px;
+    height: 300px;
+    float:left;
+}
+
+nav{
+    background-color: cornflowerblue;
+    grid-area: my-nav;
+}
+section{
+    background-color: seagreen;
+    grid-area: my-section;
+}
+aside{
+    background-color: rgba(52, 207, 52, 0.671);
+    grid-area: my-aside;
+}
+footer{
+    color: aliceblue;
+    background-color: black;
+    grid-area: my-footer;
+    text-align: center;
+}
+@media(min-width:600px) and (max-width:1000px){
+    .grid{
+        grid-template-columns: 30% 70%;
+        grid-template-rows: 150px 50px 1fr 100px;
+        grid-template-areas: "my-header my-header" "my-nav my-nav" "my-aside my-section" "my-footer my-footer";
+    }
+}
+@media(min-width:1001px){
+    .grid{
+        grid-template-columns: 200px 1fr 200px;
+        grid-template-rows: 200px 1fr 100px;
+        grid-template-areas: "my-header my-header my-header" "my-nav my-section my-aside" "my-footer my-footer my-footer";
+    }
+}

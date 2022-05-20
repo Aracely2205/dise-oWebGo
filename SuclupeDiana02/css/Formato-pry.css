@@ -1,0 +1,161 @@
+body{
+    margin: 0px;
+    padding: 0%;
+}
+.grid{
+    display: grid;
+    min-height: 100vh;
+    grid-template-columns: 100%;
+    grid-template-rows: 100px 50px 1fr 50px;
+    grid-template-areas: "my-header" "my-nav" "my-section" "my-aside" "my-footer";
+}
+
+main{
+    color: black;
+    font-family: 'Gill Sans';
+    padding-top: 3rem;
+}
+#caja01{
+    margin: 0px;
+    padding: 10px;
+    text-align:left;
+    color:white;
+    background-color:steelblue;
+}
+#caja02{
+    margin-top: auto;
+}
+#mifoto{
+    width: 130px;
+    height: 150px;
+    margin-right: 20px;
+    float: left;
+}
+#is{
+    text-align: right;
+}
+
+/* #primeros{
+    width: 130px;
+    height: 150px;
+    margin-right: 20px;
+} */
+
+section{
+    grid-area: my-section;
+    background-color: rgb(255, 255, 255);  
+    text-align: justify;  
+    padding-top: 20px;
+
+}
+
+
+section img{
+margin: 5%;
+
+}
+section div{
+   margin-left: 1%;
+    height: 45%;
+}
+section div div{
+    width: 30%;
+    float: left;
+    height: 90%;
+}
+
+section div h3{
+    margin-left: 20%;
+}
+section h2{
+    margin: 2%;
+}
+section div a{
+    margin: 20%;
+    padding: 3%;
+    background-color: rgb(90, 90, 233);
+    border-radius: 5px;
+    font-weight: bolder;
+}
+section div a:link, section div a:visited{
+    color: black;
+    text-decoration: none;
+
+}
+section div a:hover{
+    background-color: rgb(123, 123, 253);
+}
+
+
+header{
+
+    text-align:left;
+    color:white;
+    background-color:rgb(224, 197, 41);
+    padding: 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    grid-area: my-header;
+}
+nav{
+    background-color: white;
+    grid-area: my-nav;
+}
+section{
+    font-family: arial;
+    background-color: white;
+    grid-area: my-section;
+}
+aside{
+    background-color: skyblue;
+    grid-area: my-aside;
+}
+#mifoto4{
+    width: 150px;
+    height: 140px;
+    margin-right: 120px;
+    margin-left: 30px;
+    float: left ;
+}
+#cuadro{
+    background-color: steelblue;
+    scroll-margin-block: 0px;
+    border-color:steelblue;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+#tabla{
+    text-align: left;
+    width: 50%;
+    height: 50%;
+    color: aliceblue;
+}
+footer{
+    
+    text-align: center;
+    background-color: steelblue;
+    grid-area: my-footer;
+    text-align: center;
+    width: 100%;
+    height: 160px;
+    bottom: 0;
+    position: fixed;
+    
+
+}
+@media(min-width:600px) and (max-width:1000px){
+    .grid{
+        grid-template-columns: 30% 70%;
+        grid-template-rows: 150px 50px 1fr 100px;
+        grid-template-areas: "my-header my-header" "my-nav my-nav" "my-aside my-section" "my-footer my-footer";
+    }
+}
+@media(min-width:1001px){
+    .grid{
+        grid-template-columns: 200px 1fr 200px;
+        grid-template-rows: 200px 1fr 100px;
+        grid-template-areas: "my-header my-header my-header" "my-nav my-section my-aside" "my-footer my-footer my-footer";
+    }
+}
