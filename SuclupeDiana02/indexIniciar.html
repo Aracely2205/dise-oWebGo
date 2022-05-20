@@ -1,10 +1,11 @@
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/contactos.css">
+    <link rel="stylesheet" href="css/iniciar.css">
     <link rel="icon" href="img/favicon.ico">
     <title>Web Personal</title>
 </head>
@@ -13,7 +14,7 @@
         <header>
             <div id="caja01">
                 <img id="mifoto" src="img/foto1.jpg" alt="mifoto">
-                <h5 id="is">Iniciar Sesión</h5>
+                <a href="Iniciar Sesion.html"><strong>Iniciar sesión</strong></a>
                 <h1>DIANA ARACELY SUCLUPE GÁLVEZ</h1>
                 <h5>Mi Web Personal</h5>
             </div>
@@ -33,36 +34,33 @@
         ></nav>
 
         <section>
-            <p>Para comunicarse conmigo</p> 
+            
+            <form action="">
+                <h3>Inicio de sesión</h3>
+                
+                <hr color="white" size=1>
+                <p>usuario</p>
 
-            <div>
-                <form action="">
+                <input type="text" class="field"> <br />
 
-                    <label for="nombre">Nombres:</label> 
+                <p>Password</p>
+                <input type="text" class="field"> <br />
 
-                    <input type="text" class="field"> <br/>
 
-                    <label for="nombre">Email:</label> 
-                    <input type="text" class="field"> <br/>
+                <p class="center-content">
+                    <input type="button" class="btn btn-blue" value="Ingresar">
+                </p>
+                <a href="olvidó">Olvidó su contraseña?</a>
+                <hr color="white" size=1>
 
-                    <label for="nombre">Nombre:</label> 
-                    <input type="text" class="field"> <br/>
-
-                    <label for="nombre">Mensaje:</label> 
-                    <textarea type="text" class="field"></textarea> <br/>
-
-                    <p class="center-content">
-                        <input type="button" class="btn btn-blue" value="Limpiar">
-                        <input type="button" class="btn btn-blue" value="Enviar">
-                    </p>
-                    </form>
-             </div>       
-                   
+            <p>Nuevo Usuario</p>
+            <input type="button" class="btn btn-blue" value="Registrarse">
+            </form>
         </section>
 
         <aside>
             <ul>
-               <b>Menú</b> 
+            <b>Menú</b> 
             </ul>
             <ul>
                 <li> Inicio</li>
@@ -70,9 +68,9 @@
                 <li> Proyectos</li>
                 <li> Contactos</li>
             </ul>
-    
+
             <ul>
-               <b>Enlaces de Interes</b>
+            <b>Enlaces de Interes</b>
             </ul>
             <ul>
                 <li>Item01</li>
@@ -81,8 +79,8 @@
                 <li>Item04</li>
             </ul>
         </aside>
-    
-    
+
+
         <footer>
             <fieldset id="cuadro">
                 <img id="mifoto4" src="img/foto1.jpg" alt="fotopie">
@@ -131,7 +129,7 @@
                 <p style="color: black; align-content: center;">Webmaster:Diana Aracely Suclupe Gálvez</p>
             </fieldset>
         </footer>
-        </main>
-        
+    </main>
+
     </body>
     </html>
