@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/agendaV1.css">
+    <title>AgendaV1</title>
+</head>
+<body>
+    
+            <div class="grupo">
+                <form id="formulario2" name="formulario2" method="post" action="datos.php">
+                    
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" name="nombre" id="nombre"> <br>
+                    
+                    <label for="movil">Num celular:</label>
+                    <input type="text" name="movil" id="movil"><br>
+                    
+                    
+                    <input type="button" onclick="guardarDatos()" value="Guardar Datos">
+                    <p id="datos">Pulsa para ver tu nombre, numero de celular</p>
+                    <input type="button" onclick="recuperarDatos()" value="Recuperar Datos">
+
+                </form>
+            </div>
+        <script src="js/agendaV1.js"></script>
+</body>
+</html>
