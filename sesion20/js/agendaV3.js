@@ -59,12 +59,12 @@ function guardarDatos() {
     var datos={
         'movil': movil,
         'email':email,
-        
     };
     //-----------------------//
     localStorage.setItem(nombre, JSON.stringify(datos));
     document.getElementById("nombre").value = "";
     document.getElementById("movil").value = "";
+    document.getElementById("datos");
     
     actualizarDatos();
 }
@@ -72,6 +72,8 @@ function recuperarDatos() {
     var nombre = document.getElementById("nombre").value;
     localStorage.getItem(nombre);
     document.getElementById("movil").value = localStorage.getItem(nombre);
+    
+
 }
 function eliminarDatos() {
     var nombre = document.getElementById("nombre").value;
