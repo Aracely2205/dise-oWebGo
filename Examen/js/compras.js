@@ -4,32 +4,32 @@ window.onload = function () {
             id: 1,
             nombre: 'Martillo ',
             precio: 50,
-            imagen:"martilo.png"
+            imagen:"img/martillo.png"
         },{
             id: 2,
-            nombre: 'Jarabe Paltomiel',
-            precio: 28,
-            imagen:"Img/descarga.jpg"
+            nombre: 'Clavos',
+            precio: 5,
+            imagen:"img/clavos.png"
         },{
             id: 3,
-            nombre: 'Caja Mascarilla',
+            nombre: 'Llaves de tuercas',
             precio: 10,
-            imagen:"Img/descarga (2).jpg"
+            imagen:"img/llaves de tuercas.png"
         },{
             id: 4,
-            nombre: 'Alcohol Medicinal',
-            precio: 9.99,
-            imagen:"Img/pd3.jpg"
+            nombre: 'Motosierra',
+            precio: 900,
+            imagen:"img/motocierra.png"
         },{
             id: 5,
-            nombre: 'Jabon Asepxia ',
-            precio: 25,
-            imagen:"Img/descarga (3).jpg"
+            nombre: 'Palanas ',
+            precio: 70,
+            imagen:"img/palanas.png"
         },{
             id: 6,
-            nombre: 'Rexona Hombre',
-            precio: 15,
-            imagen:"Img/descarga 0.jpg"
+            nombre: 'tablas',
+            precio: 80,
+            imagen:"img/tablas.png"
         }
     ];
     
@@ -181,6 +181,8 @@ window.onload = function () {
         } else{
             document.getElementById("info_email").innerHTML=document.getElementById("email").value;
         }
+
+        
     
         document.getElementById("info_total").innerHTML="Total: S/ "+total.toFixed(2);
     }
