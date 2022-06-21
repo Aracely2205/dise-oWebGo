@@ -1,0 +1,187 @@
+#contenedor{
+    max-width: 100%;
+    min-height: 100vh;
+}
+
+header {
+    background-color: black;
+    color: white;
+    height: 190px;
+}
+
+
+nav{
+    
+    background-color: #12947F; 
+    text-align: right;
+}
+
+nav a{
+    color: white;
+    padding: 12px;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+nav a:hover{
+    background-color: #F17808;
+    color: #1d285e;
+}
+
+nav a.active{
+    background-color: #F17808;
+    color:#1d285e;
+}
+
+
+.productos{
+    margin: 11px;
+}
+
+#foto{
+    float: left;
+    margin: 10px;
+    padding: 10px;  
+}
+
+#foto img{
+    height: 90px;
+    width: 100px;
+}
+
+#inicio{
+    margin: 10px;
+    padding: 10px;
+    float: right;
+    height: auto;
+    width: auto;
+}
+
+aside h2{
+    margin-top: 10px;
+}
+
+.carousel-inner{
+    width: auto;
+    margin-top: 0px;
+    
+}
+
+#formulario{
+    margin: 15px;
+}
+
+#items{
+    margin: 12px;
+}
+
+.iconcarrito{
+    width: 200px;
+    height: 200px;
+    float: right;
+}
+
+#titulo{
+    font-size: 5vw;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+nav a.active{
+    background-color: white;
+    color:#1d285e;
+}
+
+aside{
+    border: s;
+}
+
+
+.productos{
+    margin-top: 0px;
+}
+
+h1{
+    margin: auto;
+    height: auto;
+}
+
+#foto{
+    float: left;
+    
+}
+
+#foto img{
+    height: 150px;
+    width: 150px;
+}
+
+#inicio{
+    margin: 10px;
+    padding: 10px;
+    float: right;
+    height: auto;
+    width: auto;
+}
+
+aside h2{
+    margin-top: 10px;
+}
+
+#formulario{
+    margin: 15px;
+}
+
+#items{
+    margin: 12px;
+}
+
+
+#enviar_compra{
+    margin: 5px;
+    width: 30vh;
+}
+
+#vaciar_compras{
+    margin: 5px;
+    width: 30vh;
+}
+
+.sinBorde{
+    border: 0px;
+}
+
+.iconcarrito{
+    width: 200px;
+    height: 200px;
+    float: right;
+}
+
+.botonModal{
+    width: 20cm;
+    background-color: cornflowerblue;
+}
+
+
+.titulo-productos{
+    margin-top: 10px;
+    padding: 5px;
+    text-align: center;
+    background-color: #d32831;
+    color: white;
+    border-radius: 5px;
+}
+#datos_total{
+    background-color: #e09034;
+    color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 2vh;
+}
+#titulo_carrito{
+    background-color: #e09034;
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 2vh;
+}

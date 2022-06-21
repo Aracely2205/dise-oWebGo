@@ -1,0 +1,338 @@
+#pa{
+    margin-left: 25%; 
+}
+#pacman{
+    width: 200px;
+    margin-left: 43%;
+}
+body{
+
+color: #77024D;
+background-color: #000000;
+}
+.da:hover{
+  float: none;
+  background-color: #FF5200;
+  
+  
+}
+.num1{
+    background: #F7F09B;
+    color: black;
+    padding: .2rem .3rem 1rem .3rem;
+    
+    position: absolute;
+    border-radius: 2rem 2rem 0 0;
+    animation-name: animar;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+.num2{
+    background: #FF5200;
+    color: white;
+    padding: .2rem .3rem 1rem .3rem;
+    
+    position: absolute;
+    border-radius: 2rem 2rem 0 0;
+    animation-name: animar2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+.num3{
+  background: #C31207;
+  color: white;
+  padding: .2rem .3rem 1rem .3rem;
+  
+  position: absolute;
+  border-radius: 2rem 2rem 0 0;
+  animation-name: animar3;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+.pacman {
+  width: 0px;
+  height: 0px;
+  margin-left: 20px;
+  margin-top: 10px;
+   position: absolute;
+  border-radius: 50%;
+  border-left: 15px solid  yellow;
+  border-top: 15px solid yellow;
+  border-right: 15px solid  rgba(255, 255, 255, 0);
+  border-bottom: 15px solid  yellow;
+   animation: animarP;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes animar {
+    0%{
+        left: 29rem;
+        top: 1rem;
+      }
+      10%{
+        left: 29rem ;
+        top: 12rem;
+      }
+      20%{
+        left: 35.5rem;
+        top: 12rem;
+      }
+      30%{
+        left: 35.5rem;
+        top: 27rem;
+      }
+      40%{
+        left:41.5rem ;
+        top: 27rem;
+      }
+      50%{
+        left: 41.5rem;
+        top: 30rem;
+      }
+      60%{
+        left: 50.5rem ;
+        top:  30rem;
+      }
+      70%{
+        left: 50.5rem;
+        top: 34rem;
+      }
+      80%{
+        left: 56.5rem;
+        top: 34rem;
+      }
+      
+      100%{
+        left: 56.5rem;
+        top: 37rem;
+      }
+      
+    
+}
+@keyframes animar2{
+  0%{
+    left: 45rem;
+    top: 1rem;
+  }
+  10%{
+    left: 45rem;
+    top: 7rem;
+  }
+  20%{
+    left: 51rem;
+    top: 7rem;
+  }
+  30%{
+    left: 51rem;
+    top: 30rem;
+ }
+ 40%{
+  left: 48rem ;
+  top: 30rem;
+ }
+ 50%{
+  left: 48rem;
+  top: 34rem;
+ }
+ 60%{
+  left: 45rem;
+  top: 34rem;
+ }
+ 70%{
+  left: 45rem ;
+  top:34rem ;
+ }
+ 80%{
+  left: 45rem ;
+  top: 38rem;
+ }
+ 100%{
+  left:30rem ;
+  top: 38rem;
+ }
+}
+@keyframes animar3{
+  0%{
+    left: 30rem;
+    top: 37.5rem;
+  }
+  10%{
+    left: 57rem ;
+    top: 38rem;
+  }
+  20%{
+    left: 57rem;
+    top:  34rem;
+  }
+  30%{
+    left:54rem ;
+    top: 34rem;
+  }
+  40%{
+    left: 54rem;
+    top: 30rem;
+  }
+  50%{
+    left: 57rem;
+    top: 30rem;
+  }
+  60%{
+    left: 57rem;
+    top: 27rem;
+  }
+  70%{
+    left: 51rem;
+    top: 27rem;
+  }
+  80%{
+    left: 51rem;
+    top: 1rem;
+  }
+  100%{
+    left: 57rem;
+    top: 1rem;
+  }
+
+}
+
+@keyframes animarP{
+  0%{
+    left : 28.5rem;
+    top : 1rem;
+  }
+ 10% {
+    left: 28rem;
+    top: 12rem;
+  }
+  15%{
+    left:35rem;
+    top: 12rem;
+    border-left: 15px solid  yellow  ;
+    border-top: 15px solid yellow ;
+    border-right: 15px solid  (255, 255, 0, 0) ;
+    border-bottom: 15px solid yellow ;
+
+  }
+  20% {
+
+    left:34.5rem;
+    top: 12rem;
+    border-left: 15px solid  yellow  ;
+    border-top: 15px solid yellow ;
+    border-right: 15px solid  (255, 255, 0, 0) ;
+    border-bottom: 15px solid yellow ;
+  }
+  25% {
+
+    left:34.5rem;
+    top: 30rem;
+    border-left: 15px solid  (255, 255, 0, 0) ;
+    border-top: 15px solid yellow ;
+    border-right: 15px solid  yellow ;
+    border-bottom: 15px solid yellow;
+  }
+
+  30% {
+    left: 34.5rem;
+    top: 6.5rem;
+    
+    border-left: 15px solid  yellow;
+    border-top: 15px solid rgba(255, 255, 0, 0) ;
+    border-right: 15px solid  yellow;
+    border-bottom: 15px solid yellow;
+  }
+
+   40% {
+    
+  }
+
+  50% {
+    left: 50rem;
+    top: 6.5rem;
+     border-left: 15px solid  yellow;
+    border-top: 15px solid  yellow;
+    border-right: 15px solid  rgba(255, 255, 0, 0) ;;
+    border-bottom: 15px solid yellow;
+  }
+
+  60% {
+    left: 50rem;
+    top: 34rem;
+    
+     border-left: 15px solid  yellow;
+    border-top: 15px solid  yellow;
+    border-right: 15px solid  yellow;
+    border-bottom: 15px solid rgba(255, 255, 0, 0) ;
+  }
+  70% {
+    left: 50rem;
+    top: 30rem;
+    
+    border-left: 15px solid   rgba(255, 255, 0, 0);
+    border-top: 15px solid yellow;
+    border-right: 15px solid yellow  ;
+    border-bottom: 15px solid yellow;
+  }
+  75% {
+    left: 50rem;
+    top: 34rem;
+    
+    border-left: 15px solid  yellow;
+    border-top: 15px solid  rgba(255, 255, 0, 0) ;
+    border-right: 15px solid  yellow;
+    border-bottom: 15px solid yellow;
+  }
+   80% {
+    left: 56rem;
+    top: 34rem;
+    
+    border-left: 15px solid  yellow;
+    border-top: 15px solid  yellow;
+    border-right: 15px solid  rgba(255, 255, 0, 0) ;
+    border-bottom: 15px solid yellow;
+  }
+
+  85% {
+    left: 56rem;
+    top: 38rem;
+    
+     border-left: 15px solid  yellow;
+    border-top: 15px solid  yellow;
+    border-right: 15px solid  yellow;
+    border-bottom: 15px solid rgba(255, 255, 0, 0) ;
+  }
+ 90% { 
+    left: 28rem;
+    top: 36rem;
+    border-left: 15px solid  rgba(255, 255, 0, 0);
+    border-top: 15px solid  yellow;
+    border-right: 15px solid  yellow ;
+    border-bottom: 15px solid yellow;
+  }
+ 95% {
+  left: 28rem;
+  top: 35rem;
+
+  border-left: 15px solid  yellow;
+    border-top: 15px solid  rgba(255, 255, 0, 0);
+    border-right: 15px solid  yellow ;
+    border-bottom: 15px solid yellow;
+    
+    
+  }
+
+  100% {
+    left: 35rem;
+    top: 35rem;
+  
+    border-left: 15px solid  yellow ;
+    border-top: 15px solid yellow;
+    border-right: 15px solid  rgba(255, 255, 0, 0);
+    border-bottom: 15px solid yellow;
+  }
+}
+  
+  
+  

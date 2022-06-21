@@ -1,0 +1,25 @@
+html,
+body{
+    height: 100%;
+}
+#cover{
+    background: #222 url(bulldog.jpeg)center no-repeat;
+    background-size: 100%;
+    color: white;
+    height: 100%;
+    text-align: center;
+}
+#cover-texto{
+    width: 100%;
+}
+.collapse ul li a:hover{
+    background-color: blue;
+  }
+  .boder{
+      height: 100%;
+      background-color:white;
+      border: 1px ;  
+  }
+  .boder ul li:hover{
+      background-color: #0098EF;
+  }

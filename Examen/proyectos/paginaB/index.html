@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BVeterinaria</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <main>
+    <section id="cover" class="d-flex aling-item-center">
+      <div id="cover-texto">
+        <div class="d-flex justify-content-center">
+          <div class="row">
+            <div class="col-sm-12">
+              <h1 class="display-3">Veterinaria mis 4Patas</h1>
+              <p class="lead">Siempre a su servicio, a cualquier hora del dia</p>
+              <form class="row gy-2 gx-3 align-items-center">
+                <div class="col-auto">
+                  <label class="visually-hidden" for="autoSizingInput">Name</label>
+                  <input type="text" class="form-control" id="autoSizingInput" placeholder="Nombres y Apellidos">
+                </div>
+                <div class="col-auto">
+                  <label class="visually-hidden" for="autoSizingInputGroup">Username</label>
+                  <div class="input-group">
+                    <div class="input-group-text">@</div>
+                    <input type="text" class="form-control" id="autoSizingInputGroup" placeholder="Usuario">
+                  </div>
+                </div>
+                <div class="col-auto">
+                  <button type="submit" class="btn btn-info">Suscribirme</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <nav class="navbar navbar-expand-lg bg-primary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Menu</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled">Servicios</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-dark btn-outline-primary" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <div class="row">
+      <div class="boder col-sm-12 col-md-10">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+
+            <div class="carousel-item active">
+              <img src="01.jpg" fl class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="02.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="03.jpg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <div class="boder col-sm-12 col-md-2">
+
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Nuestros Servicios</li>
+          <li class="list-group-item">Desparasitacion</li>
+          <li class="list-group-item">Vacunacion</li>
+          <li class="list-group-item">Baños Medicos</li>
+          <li class="list-group-item">Hospitalizacion</li>
+          <li class="list-group-item">Laboratorios</li>
+          <li class="list-group-item">Emergencia</li>
+          <li class="list-group-item">Tele Consultas</li>
+          <li class="list-group-item">Radiologia</li>
+        </ul>
+      </div>
+    </div>
+
+    <section>
+      <div class="card-group">
+        <div class="card">
+          <img src="01.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Poodle Toy</h5>
+            <p class="card-text">Los poodle toy deben ser cepillados diariamente para evitar la acumulación de suciedad y la formación de enredos. En cuanto a la higiene, se aconseja bañarlos al menos una vez al mes con un champú específico para su tipo de pelo. Otros cuidados básicos del caniche miniatura es la limpieza de las orejas, los ojos y los dientes.</p>
+            <p class="card-text"><small class="text-muted">Ver más...</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="02.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Labrador retriever</h5>
+            <p class="card-text"> El labrador retriever tiene un gran apetito. Le encanta comer, así que podría llevar a todos lados su bol de comida, pedir comida o comer cosas poco convencionales.Proporciónale mucha agua fresca y limpia. Tu labrador tendrá mucha sed después de ejercitarse y necesitará saciarla. Beberá más o menos agua dependiendo de lo activo que haya estado y del calor que haga al exterior. No limites su consumo de agua a diferencia de la comida.</p>
+            <p class="card-text"><small class="text-muted">Ver más...</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="03.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Setter Irlandés</h5>
+            <p class="card-text">Cuidados del Setter Irlandés Cepille su pelaje una vez al día. Báñelo cuando lo considere necesario. Llévelo a dar largos paseos en donde pueda correr y sentirse libre. Bríndele una alimentación balanceada. Este perro necesita vivir en un lugar con gran espacio, y no se recomiendan las zonas urbanas demasiado pobladas.</p>
+            <p class="card-text"><small class="text-muted">Ver más...</small></p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="row">
+      <footer class=" text-center text-white" style="background-color:#000000;">
+        <div class="container my-5">
+          <footer>
+            <!-- Grid container -->
+            <div class="container p-4">
+              <!--Grid row-->
+              <div class="row mt-4">
+                <!--Grid column-->
+                <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
+                  <h5 class="text-uppercase mb-4">Acerca de la Empresa</h5>
+
+                  <p>
+                    Somos una empresa que cuida y vela por la seguridad de nuestros amigos perrunos, lo mas importante para nosotros es que ellos tengan un buen cuidado.
+                  </p>
+
+                  <p>
+                    Por lo tanto les damos recomendaciones y los ayudamos a cuidar a sus cachorros para que los puedan seguir acompañando por mucho tiempo más.
+                  </p>
+
+                  <div class="mt-4">
+                    <!-- Facebook -->
+                    <a type="button" class="btn btn-floating btn-light btn-lg"><i class="fab fa-facebook-f"></i></a>
+                    <!-- Dribbble -->
+                    <a type="button" class="btn btn-floating btn-light btn-lg"><i class="fab fa-dribbble"></i></a>
+                    <!-- Twitter -->
+                    <a type="button" class="btn btn-floating btn-light btn-lg"><i class="fab fa-twitter"></i></a>
+                    <!-- Google + -->
+                    <a type="button" class="btn btn-floating btn-light btn-lg"><i class="fab fa-google-plus-g"></i></a>
+                    <!-- Linkedin -->
+                  </div>
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+                  <h5 class="text-uppercase mb-4 pb-1">Busca publicaciones de interes:</h5>
+
+                  <div class="form-outline form-white mb-4">
+                    <input type="text" id="formControlLg" class="form-control form-control-lg" />
+                    <label class="form-label" for="formControlLg">Buscar</label>
+                  </div>
+
+                  <ul class="fa-ul" style="margin-left: 1.65em;">
+                    <li class="mb-3">
+                      <span class="fa-li"><i class="fas fa-home"></i></span><span class="ms-2">Av, larco, #275,Trujillo </span>
+                    </li>
+                    <li class="mb-3">
+                      <span class="fa-li"><i class="fas fa-envelope"></i></span><span
+                        class="ms-2">PatitasFelices@atiende.com</span>
+                    </li>
+                    <li class="mb-3">
+                      <span class="fa-li"><i class="fas fa-phone"></i></span><span class="ms-2">+ 51 989 675 764</span>
+                    </li>
+                  </ul>
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+                  <h5 class="text-uppercase mb-4">Horas de atención</h5>
+
+                  <table class="table text-center text-white">
+                    <tbody class="fw-normal">
+                      <tr>
+                        <td>Lunes - Viernes:</td>
+                        <td>8am - 9pm</td>
+                      </tr>
+                      <tr>
+                        <td>Sabado - Domingo:</td>
+                        <td>8am - 1am</td>
+                      </tr>
+                      <tr>
+                        <td>Feriados:</td>
+                        <td>9am - 10pm</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <!--Grid column-->
+              </div>
+              <!--Grid row-->
+            </div>
+            <!-- Grid container -->
+
+            <!-- Copyright -->
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+              © 2020 Copyright:
+              <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+            </div>
+            <!-- Copyright -->
+          </footer>
+        </div>
+      </footer>
+    </div>
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+</body>
+</html>
